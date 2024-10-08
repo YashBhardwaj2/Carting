@@ -18,7 +18,7 @@ const CartItem = ({item, itemIndex}) => {
       <div className="flex flex-col items-center justify-between  p-4 mt-10 ml-5 rounded-xl outline">
 
         <div>
-          <img className=" h-[180px]" src={item.image} />
+          <img className=" h-[180px]" src={item.image} alt="Product-Image" />
         </div>
         <div>
           <h1 className="text-gray-700 font-semibold text-lg text-left truncate w-40 mt-1">{item.title}</h1>
